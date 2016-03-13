@@ -1,8 +1,9 @@
-require 'wargaming_api/accounts/players'
+require 'wargaming_api/request'
 
 module WargamingApi
 
-  class Accounts
+  class WargamingApi::Accounts < WargamingApi::Request
+
 
   end
 
