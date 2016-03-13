@@ -4,34 +4,32 @@ module WargamingApi
   class WargamingApi::Accounts
     class WargamingApi::Accounts::Players < WargamingApi::Accounts
 
-      attr_accessor :search, :limit #:req_fields
+      attr_reader :type
+      attr_accessor :search, :limit
 
       def initialize
         @language = 'en'
-        #@req_fields = []
-        @search = ''
+        @search = 'banzsolt'
         @limit = 100
         @application_id = WargamingApi::APP_TOKEN
         @link = 'api.worldoftanks.eu/wot/account/list'
       end
 
-      def crawl
-        require 'httparty'
+      def self.possible_type
+        return %w(startswith exact)
+      end
 
-        link = "http://#{WargamingApi::Accounts::Players.link}/"
-
-        data = HTTParty.get(link, :query => self.attrs)
-        object = JSON.parse(data.body)
-
-        if object.length > 0
-          if object['status'] == 'ok'
-            return object['data']
-          end
+      def set_type(value)
+        if WargamingApi::Accounts::Players.possible_language.include? value
+          @type = value
+        else
+          @type = 'startswith'
         end
       end
 
+
     end
 
-    puts 'accounts -> Players loaded.'
+    puts 'Accounts -> Players loaded.'
   end
 end

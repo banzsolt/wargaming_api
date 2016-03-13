@@ -1,7 +1,7 @@
 module WargamingApi
   class WargamingApi::Request
 
-    attr_accessor :fields
+    #attr_accessor :fields
     attr_reader :language, :application_id, :link
 
     def attrs
@@ -32,6 +32,8 @@ module WargamingApi
 
       the_link = "http://#{@link}/"
 
+      puts the_link
+
       data = HTTParty.get(the_link, :query => self.attrs)
       object = JSON.parse(data.body)
 
@@ -44,5 +46,6 @@ module WargamingApi
       end
     end
 
+    puts 'Request loaded.'
   end
 end

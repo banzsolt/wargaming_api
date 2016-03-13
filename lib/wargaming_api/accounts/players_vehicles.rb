@@ -2,20 +2,21 @@ require 'wargaming_api/accounts'
 
 module WargamingApi
   class WargamingApi::Accounts
-    class WargamingApi::Accounts::PlayerPersonalData < WargamingApi::Accounts
+    class WargamingApi::Accounts::PlayersVehicles < WargamingApi::Accounts
 
-      attr_accessor :account_id, :extra, :access_token
+      attr_accessor :account_id, :tank_id, :access_token
 
       def initialize
         @language = 'en'
         @account_id = 509851940
         @application_id = WargamingApi::APP_TOKEN
-        @link = 'api.worldoftanks.eu/wot/account/info'
+        @link = 'api.worldoftanks.eu/wot/account/tanks'
         @access_token = ''
-        @extra = ''
+        @tank_id = ''
       end
 
-      puts 'Accounts -> PlayerPersonalData loaded.'
     end
+
+    puts 'Accounts -> PlayersVehicles loaded.'
   end
 end

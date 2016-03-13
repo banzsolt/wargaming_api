@@ -7,6 +7,5 @@ module WargamingApi
 
   end
 
-  puts 'accounts loaded.'
-
+  puts 'Accounts loaded.'
 end
