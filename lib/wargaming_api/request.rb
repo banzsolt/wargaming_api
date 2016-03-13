@@ -13,7 +13,6 @@ module WargamingApi
       attrs
     end
 
-
     def self.possible_language
       return %w(en ru pl de fr es zh-cn tr cs th vi ko)
     end
@@ -27,22 +26,17 @@ module WargamingApi
     end
 
     def call
-
       require 'httparty'
 
       the_link = "http://#{@link}/"
-
       puts the_link
 
       data = HTTParty.get(the_link, :query => self.attrs)
       object = JSON.parse(data.body)
-
       if object.length > 0
-        if object['status'] == 'ok'
-          return object['data']
-        else
-          return object
-        end
+        return object
+      else
+        return false
       end
     end
 

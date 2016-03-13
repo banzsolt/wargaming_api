@@ -1,10 +1,7 @@
 require 'wargaming_api/version'
-require 'wargaming_api/request'
-require 'wargaming_api/accounts.rb'
-require 'wargaming_api/accounts/players.rb'
-require 'wargaming_api/accounts/player_personal_data'
-require 'wargaming_api/accounts/players_vehicles'
-require 'wargaming_api/accounts/players_achievements'
+Dir[File.dirname(__FILE__) + '/wargaming_api/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/accounts/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/strongholds/*.rb'].each { |f| require f }
 
 module WargamingApi
 

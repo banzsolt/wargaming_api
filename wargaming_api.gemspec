@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Zsolt Ban"]
   spec.email         = ["banzsolt94@gmail.com"]
 
-  spec.summary       = "Test"
-  spec.description   = "testestest"
-  spec.homepage      = ""
+  spec.summary       = "Make the calls to Wargaming's API easy!"
+  spec.description   = "Make the calls to Wargaming's API easy!"
+  spec.homepage      = "https://github.com/banzsolt/wargaming_api"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

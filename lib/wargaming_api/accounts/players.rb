@@ -27,9 +27,7 @@ module WargamingApi
         end
       end
 
-
+      puts 'Accounts -> Players loaded.'
     end
-
-    puts 'Accounts -> Players loaded.'
   end
 end

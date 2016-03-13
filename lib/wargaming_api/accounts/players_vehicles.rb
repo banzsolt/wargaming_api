@@ -15,8 +15,7 @@ module WargamingApi
         @tank_id = ''
       end
 
+      puts 'Accounts -> PlayersVehicles loaded.'
     end
-
-    puts 'Accounts -> PlayersVehicles loaded.'
   end
 end

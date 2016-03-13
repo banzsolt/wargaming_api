@@ -13,8 +13,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/account/achievements'
       end
 
+      puts 'Accounts -> PlayersAchievements loaded.'
     end
-
-    puts 'Accounts -> PlayersAchievements loaded.'
   end
 end
