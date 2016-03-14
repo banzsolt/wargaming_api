@@ -12,7 +12,6 @@ module WargamingApi
         @application_id = WargamingApi::APP_TOKEN
         @link = 'api.worldoftanks.eu/wot/stronghold/info'
         @access_token = '89da378a07d13a295d39d4149a153a8f2faa822a'
-        @extra = ''
       end
 
       puts 'Strongholds -> ClansStronghold loaded.'

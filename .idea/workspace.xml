@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da3075da-0758-40a4-8ccf-3fa91e44604a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/account_event_information.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/accounts_season_data.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_position_in_event_clan_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_positions_in_event_account_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_positions_in_season_clan_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clan_details.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clan_event_information.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clan_event_missions.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clans_battles.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clans_provinces.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/clans_season_data.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/event_account_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/event_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/events.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/fronts.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/map_status.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/season_rating.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/seasons.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/wargaming_api.rb" afterPath="$PROJECT_DIR$/lib/wargaming_api.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/wargaming_api/version.rb" afterPath="$PROJECT_DIR$/lib/wargaming_api/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb" afterPath="$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb" afterPath="$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb" />
     </list>
     <ignored path="wot-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,31 +29,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="events.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/events.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wargaming_api.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/wargaming_api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07132667">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.14265335">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_event_information.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/account_event_information.rb">
+      <file leaf-file-name="clans_provinces.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/clans_provinces.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provinces.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clans_stronghold.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player_personal_data.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/player_personal_data.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="27" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players_achievements.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_achievements.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players_vehicles.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_vehicles.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strongholds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -84,66 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_account_rating.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/event_account_rating.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adjacent_positions_in_event_account_rating.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_positions_in_event_account_rating.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_rating.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/event_rating.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adjacent_position_in_event_clan_rating.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_position_in_event_clan_rating.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map_status.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/map_status.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clan_details.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/clan_details.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -177,12 +157,10 @@
         <option value="$PROJECT_DIR$/lib/wargaming_api/authentication/open_id_login.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds/structures.rb" />
-        <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds/player_stats_for_the_current_clans_stronghold.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds/planned_battles.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/request.rb" />
         <option value="$PROJECT_DIR$/wargaming_api.gemspec" />
-        <option value="$PROJECT_DIR$/lib/wargaming_api.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/fronts.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/clan_details.rb" />
@@ -190,7 +168,6 @@
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/clans_battles.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/accounts_season_data.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/clans_season_data.rb" />
-        <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/seasons.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/season_rating.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_positions_in_season_clan_rating.rb" />
@@ -204,6 +181,9 @@
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/adjacent_position_in_event_clan_rating.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/map_status.rb" />
         <option value="$PROJECT_DIR$/lib/wargaming_api/version.rb" />
+        <option value="$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb" />
+        <option value="$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb" />
+        <option value="$PROJECT_DIR$/lib/wargaming_api.rb" />
       </list>
     </option>
   </component>
@@ -303,28 +283,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wargaming_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wot-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wot-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wargaming_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global_map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds/structures.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -715,46 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_achievements.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_vehicles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/player_personal_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/seasons.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -787,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/clans_provinces.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/clans_season_data.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -807,14 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -915,10 +809,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/clans_provinces.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/global_map/provinces.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds/clans_stronghold.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/player_personal_data.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_achievements.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/accounts/players_vehicles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wargaming_api/strongholds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/wargaming_api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07132667">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.14265335">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -4,8 +4,8 @@ module WargamingApi
   class WargamingApi::GlobalMap
     class WargamingApi::GlobalMap::Provinces < WargamingApi::GlobalMap
 
-      attr_reader :landing_type, :order_by
-      attr_accessor :limit, :page_no, :front_id, :prime_hour, :arena_id, :daily_revenue_lte, :daily_revenue_gte,
+      attr_reader :landing_type, :order_by, :prime_hour
+      attr_accessor :limit, :page_no, :front_id, :arena_id, :daily_revenue_lte, :daily_revenue_gte,
                     :province_id
 
       def initialize
@@ -42,6 +42,14 @@ module WargamingApi
 
       def set_order_by(value)
         if WargamingApi::GlobalMap::Provinces.possible_order_by.include? value
+          @order_by = value
+        else
+          @order_by = ''
+        end
+      end
+
+      def set_prime_hour(value)
+        if (0 <= value) and (value <= 23)
           @order_by = value
         else
           @order_by = ''
