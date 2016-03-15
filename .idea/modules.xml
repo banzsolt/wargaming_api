@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/wot-api.iml" filepath="$PROJECT_DIR$/.idea/wot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wot_replay_to_json/.idea/wot_replay_to_json.iml" filepath="$PROJECT_DIR$/../wot_replay_to_json/.idea/wot_replay_to_json.iml" />
     </modules>
   </component>
 </project>

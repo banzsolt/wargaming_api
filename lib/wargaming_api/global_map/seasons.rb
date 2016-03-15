@@ -21,7 +21,7 @@ module WargamingApi
         return %w(PLANNED ACTIVE FINISHED)
       end
 
-      def set_landing_type(value)
+      def set_landing_status(value)
         if WargamingApi::GlobalMap::Seasons.possible_status.include? value
           @status = value
         else

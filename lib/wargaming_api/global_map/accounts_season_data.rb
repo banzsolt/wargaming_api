@@ -20,7 +20,7 @@ module WargamingApi
         return %w(6 8 10)
       end
 
-      def set_landing_type(value)
+      def set_vehicle_level(value)
         if WargamingApi::GlobalMap::AccountsSeasonData.possible_vehicle_level.include? value
           @vehicle_level = value
         else

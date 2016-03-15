@@ -14,17 +14,18 @@ module WargamingApi
         @page_no = 1
         @event_id = ''
         @limit = 20
+        @status = ''
       end
 
       def self.possible_status
         return %w(PLANNED ACTIVE FINISHED)
       end
 
-      def set_landing_type(value)
+      def set_status(value)
         if WargamingApi::GlobalMap::Events.possible_status.include? value
-          @vehicle_level = value
+          @status = value
         else
-          @vehicle_level = ''
+          @status = ''
         end
       end
 

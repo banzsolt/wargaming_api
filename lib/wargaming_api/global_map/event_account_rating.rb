@@ -22,7 +22,7 @@ module WargamingApi
         return %w(1 0)
       end
 
-      def set_landing_type(value)
+      def set_in_rating(value)
         if WargamingApi::GlobalMap::EventAccountRating.possible_in_rating.include? value
           @in_rating = value
         else
