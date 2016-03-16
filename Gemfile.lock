@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wargaming_api (0.1.5)
+    wargaming_api (0.1.6)
       httparty
 
 GEM
