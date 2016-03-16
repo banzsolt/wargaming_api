@@ -1,13 +1,14 @@
 require 'wargaming_api/version'
 Dir[File.dirname(__FILE__) + '/wargaming_api/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/accounts/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/strongholds/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/global_map/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/tankopedia/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/player_ratings/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/clan_ratings/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/players_vehicles/*.rb'].each { |f| require f }
-Dir[File.dirname(__FILE__) + '/wargaming_api/permanent_teams/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/accounts/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/strongholds/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/global_map/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/tankopedia/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/player_ratings/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/clan_ratings/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/players_vehicles/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks/permanent_teams/*.rb'].each { |f| require f }
 
 module WargamingApi
 
