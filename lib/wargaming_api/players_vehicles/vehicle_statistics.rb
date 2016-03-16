@@ -1,4 +1,4 @@
-require 'wargaming_api/player_ratings'
+require 'wargaming_api/players_vehicles'
 
 module WargamingApi
   class WargamingApi::PlayersVehicles

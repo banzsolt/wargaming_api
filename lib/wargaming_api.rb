@@ -7,6 +7,7 @@ Dir[File.dirname(__FILE__) + '/wargaming_api/tankopedia/*.rb'].each { |f| requir
 Dir[File.dirname(__FILE__) + '/wargaming_api/player_ratings/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/clan_ratings/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/players_vehicles/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/permanent_teams/*.rb'].each { |f| require f }
 
 module WargamingApi
 
