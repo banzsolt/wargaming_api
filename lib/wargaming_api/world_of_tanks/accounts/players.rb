@@ -20,7 +20,7 @@ module WargamingApi
       end
 
       def set_type(value)
-        if WargamingApi::WorldOfTanks::Accounts::Players.possible_language.include? value
+        if WargamingApi::WorldOfTanks::Accounts::Players.possible_type.include? value
           @type = value
         else
           @type = 'startswith'
