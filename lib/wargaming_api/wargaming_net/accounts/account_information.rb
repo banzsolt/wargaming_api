@@ -1,6 +1,5 @@
 require 'wargaming_api/wargaming_net/accounts'
 
-
 module WargamingApi
   class WargamingApi::WargamingNet::Accounts
     class WargamingApi::WargamingNet::Accounts::AccountInformation < WargamingApi::WargamingNet::Accounts
