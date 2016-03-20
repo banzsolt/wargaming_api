@@ -13,6 +13,7 @@ Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/*.rb'].each { |f| req
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/accounts/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/wg_league/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/clans/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/servers/*.rb'].each { |f| require f }
 
 module WargamingApi
 

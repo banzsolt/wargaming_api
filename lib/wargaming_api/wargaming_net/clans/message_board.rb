@@ -1,7 +1,7 @@
-require 'wargaming_api/wargaming_net/accounts'
+require 'wargaming_api/wargaming_net/clans'
 
 module WargamingApi
-  class WargamingApi::WargamingNet::Accounts
+  class WargamingApi::WargamingNet::Clans
     class WargamingApi::WargamingNet::Clans::MessageBoard < WargamingApi::WargamingNet::Clans
 
       attr_accessor :access_token
