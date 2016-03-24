@@ -14,6 +14,8 @@ Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/accounts/*.rb'].each 
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/wg_league/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/clans/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/wargaming_net/servers/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks_blitz/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_tanks_blitz/accounts/*.rb'].each { |f| require f }
 
 module WargamingApi
 

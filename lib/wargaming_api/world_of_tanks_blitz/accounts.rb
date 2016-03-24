@@ -1,4 +1,8 @@
-#mmm
+require 'wargaming_api/world_of_tanks_blitz'
 
-class Accounts
+module WargamingApi
+  class WargamingApi::WorldOfTanksBlitz::Accounts < WargamingApi::WorldOfTanksBlitz
+
+    puts 'WargamingNet => Accounts loaded.'
+  end
 end
