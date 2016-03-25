@@ -22,9 +22,9 @@ module WargamingApi
 
       def set_type(value)
         if WargamingApi::WorldOfTanksBlitz::Accounts::Players.possible_type.include? value
-          @game = value
+          @type = value
         else
-          @game = 'startswith'
+          @type = 'startswith'
         end
       end
 
