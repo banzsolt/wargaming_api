@@ -24,6 +24,9 @@ Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/account/*.rb'].e
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/encyclopedia/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/player_ratings/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warships/account/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warships/encyclopedia/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warships/season/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warships/warship/*.rb'].each { |f| require f }
 
 module WargamingApi
 
