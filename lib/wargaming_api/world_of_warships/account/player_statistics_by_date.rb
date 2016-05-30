@@ -10,7 +10,7 @@ module WargamingApi
       def initialize
         @application_id = WargamingApi::APP_TOKEN
         @language = 'en'
-        @link = 'api.worldofwarships.eu/wows/account/info'
+        @link = 'api.worldofwarships.eu/wows/account/statsbydate'
         @account_id = 509851940
         @access_token = ''
         @extra = ''
