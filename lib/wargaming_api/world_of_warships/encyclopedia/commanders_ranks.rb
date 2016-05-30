@@ -13,7 +13,7 @@ module WargamingApi
         @nation = ''
       end
 
-      puts 'WorldOfWarships => Account -> CommandersRanks loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> CommandersRanks loaded.'
     end
   end
 end

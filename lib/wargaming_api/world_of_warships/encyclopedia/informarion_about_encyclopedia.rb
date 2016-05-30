@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldofwarships.eu/wows/encyclopedia/info'
       end
 
-      puts 'WorldOfWarships => Account -> InformarionAboutEncyclopedia loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> InformarionAboutEncyclopedia loaded.'
     end
   end
 end

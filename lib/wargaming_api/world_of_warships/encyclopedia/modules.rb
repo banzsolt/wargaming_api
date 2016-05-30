@@ -14,7 +14,7 @@ module WargamingApi
         @type = ''
       end
 
-      puts 'WorldOfWarships => Account -> Modules loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> Modules loaded.'
     end
   end
 end

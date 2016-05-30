@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldofwarships.eu/wows/encyclopedia/accountlevels'
       end
 
-      puts 'WorldOfWarships => Account -> ServiceRecordLevelsInformation loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> ServiceRecordLevelsInformation loaded.'
     end
   end
 end

@@ -13,7 +13,7 @@ module WargamingApi
         @skill_id = ''
       end
 
-      puts 'WorldOfWarships => Account -> CommanderSkills loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> CommanderSkills loaded.'
     end
   end
 end

@@ -13,7 +13,7 @@ module WargamingApi
         @commander_id = ''
       end
 
-      puts 'WorldOfWarships => Account -> Commanders loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> Commanders loaded.'
     end
   end
 end

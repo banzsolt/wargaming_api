@@ -14,7 +14,7 @@ module WargamingApi
         @type = ''
       end
 
-      puts 'WorldOfWarships => Account -> ExteriorItems loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> ExteriorItems loaded.'
     end
   end
 end

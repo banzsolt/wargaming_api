@@ -23,7 +23,7 @@ module WargamingApi
         @torpedo_bomber_id = ''
       end
 
-      puts 'WorldOfWarships => Account -> ShipParameters loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> ShipParameters loaded.'
     end
   end
 end

@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldofwarships.eu/wows/encyclopedia/achievements'
       end
 
-      puts 'WorldOfWarships => Account -> BattleTypes loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> BattleTypes loaded.'
     end
   end
 end

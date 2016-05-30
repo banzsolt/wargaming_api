@@ -13,7 +13,7 @@ module WargamingApi
         @upgrade_id = ''
       end
 
-      puts 'WorldOfWarships => Account -> Upgrades loaded.'
+      puts 'WorldOfWarships => Encyclopedia -> Upgrades loaded.'
     end
   end
 end
