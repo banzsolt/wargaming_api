@@ -23,10 +23,11 @@ Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/*.rb'].each { |f
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/account/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/encyclopedia/*.rb'].each { |f| require f }
 Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warplanes/player_ratings/*.rb'].each { |f| require f }
+Dir[File.dirname(__FILE__) + '/wargaming_api/world_of_warships/account/*.rb'].each { |f| require f }
 
 module WargamingApi
 
-  WARGAMING_API_VERSION = '20/04/2016'
+  WARGAMING_API_VERSION = '04/05/2016'
   APP_TOKEN = '1f757d5d0fdf395244e3ac3e3c44b461'
 
   puts 'WargamingApi loaded.'
