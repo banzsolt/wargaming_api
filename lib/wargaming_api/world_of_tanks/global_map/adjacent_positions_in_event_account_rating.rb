@@ -18,7 +18,7 @@ module WargamingApi
         @neighbours_count = 99
       end
 
-      puts 'GlobalMap -> AdjacentPositionsInEventAccountRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> AdjacentPositionsInEventAccountRating loaded.'
     end
   end
 end

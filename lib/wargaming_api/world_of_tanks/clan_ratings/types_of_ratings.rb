@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/clanratings/types'
       end
 
-      puts 'ClanRatings -> TypesOfRatings loaded.'
+      puts 'WorldOfTanks => ClanRatings -> TypesOfRatings loaded.'
     end
   end
 end

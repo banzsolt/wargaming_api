@@ -13,7 +13,7 @@ module WargamingApi
         @access_token = '0710bb4eb4568a157047dc86bb5f394e2b357617'
       end
 
-      puts 'Authentication -> AccessTokenExtension loaded.'
+      puts 'WorldOfTanks => Authentication -> AccessTokenExtension loaded.'
     end
   end
 end

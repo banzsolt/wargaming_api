@@ -26,7 +26,7 @@ module WargamingApi
         end
       end
 
-      puts 'ClanRatings -> TopClans loaded.'
+      puts 'WorldOfTanks => ClanRatings -> TopClans loaded.'
     end
   end
 end

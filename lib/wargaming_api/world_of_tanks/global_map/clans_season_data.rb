@@ -28,7 +28,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> ClansSeasonData loaded.'
+      puts 'WorldOfTanks => GlobalMap -> ClansSeasonData loaded.'
     end
   end
 end

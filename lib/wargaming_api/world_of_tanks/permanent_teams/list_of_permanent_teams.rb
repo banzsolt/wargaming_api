@@ -29,7 +29,7 @@ module WargamingApi
         end
       end
 
-      puts 'PermanentTeams -> ListOfPermanentTeams loaded.'
+      puts 'WorldOfTanks => PermanentTeams -> ListOfPermanentTeams loaded.'
     end
   end
 end

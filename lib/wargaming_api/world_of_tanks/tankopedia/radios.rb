@@ -14,7 +14,7 @@ module WargamingApi
         @module_id = ''
       end
 
-      puts 'Tankopedia -> Radios loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Radios loaded.'
     end
   end
 end

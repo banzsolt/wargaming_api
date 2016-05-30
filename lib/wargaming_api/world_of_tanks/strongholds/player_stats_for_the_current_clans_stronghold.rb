@@ -14,7 +14,7 @@ module WargamingApi
         @account_id = 509851940
       end
 
-      puts 'Strongholds -> PlayerStatsForTheCurrentClansStronghold loaded.'
+      puts 'WorldOfTanks => Strongholds -> PlayerStatsForTheCurrentClansStronghold loaded.'
     end
   end
 end

@@ -13,7 +13,7 @@ module WargamingApi
         @clan_id = 500002053
       end
 
-      puts 'Strongholds -> PlannedBattles loaded.'
+      puts 'WorldOfTanks => Strongholds -> PlannedBattles loaded.'
     end
   end
 end

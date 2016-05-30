@@ -15,7 +15,7 @@ module WargamingApi
         @front_id = 'black_gold_third_step'
       end
 
-      puts 'GlobalMap -> ClanEventInformation loaded.'
+      puts 'WorldOfTanks => GlobalMap -> ClanEventInformation loaded.'
     end
   end
 end

@@ -16,7 +16,7 @@ module WargamingApi
         @limit = 99
       end
 
-      puts 'GlobalMap -> AdjacentPositionInEventClanRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> AdjacentPositionInEventClanRating loaded.'
     end
   end
 end

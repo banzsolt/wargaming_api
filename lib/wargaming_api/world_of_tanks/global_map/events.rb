@@ -29,7 +29,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> Events loaded.'
+      puts 'WorldOfTanks => GlobalMap -> Events loaded.'
     end
   end
 end

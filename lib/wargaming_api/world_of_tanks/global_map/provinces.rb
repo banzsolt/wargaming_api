@@ -56,7 +56,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> Provinces loaded.'
+      puts 'WorldOfTanks => GlobalMap -> Provinces loaded.'
     end
   end
 end

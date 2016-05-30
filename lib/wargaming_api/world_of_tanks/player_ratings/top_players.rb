@@ -31,7 +31,7 @@ module WargamingApi
         end
       end
 
-      puts 'PlayerRatings -> TopPlayers loaded.'
+      puts 'WorldOfTanks => PlayerRatings -> TopPlayers loaded.'
     end
   end
 end

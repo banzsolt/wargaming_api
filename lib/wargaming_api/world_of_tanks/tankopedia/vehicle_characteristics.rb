@@ -18,7 +18,7 @@ module WargamingApi
         @radio_id = ''
       end
 
-      puts 'Tankopedia -> VehicleCharacteristics loaded.'
+      puts 'WorldOfTanks => Tankopedia -> VehicleCharacteristics loaded.'
     end
   end
 end

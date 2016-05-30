@@ -13,7 +13,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/auth/login'
       end
 
-      puts 'Authentication -> OpenIDLogin loaded.'
+      puts 'WorldOfTanks => Authentication -> OpenIDLogin loaded.'
     end
   end
 end

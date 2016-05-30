@@ -30,7 +30,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> EventAccountRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> EventAccountRating loaded.'
     end
   end
 end

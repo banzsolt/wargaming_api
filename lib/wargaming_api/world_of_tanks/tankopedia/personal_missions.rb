@@ -16,7 +16,7 @@ module WargamingApi
         @tag = ''
       end
 
-      puts 'Tankopedia -> PersonalMissions loaded.'
+      puts 'WorldOfTanks => Tankopedia -> PersonalMissions loaded.'
     end
   end
 end

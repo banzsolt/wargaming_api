@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/encyclopedia/arenas'
       end
 
-      puts 'Tankopedia -> Maps loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Maps loaded.'
     end
   end
 end

@@ -29,7 +29,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> AdjacentPositionsInSeasonClanRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> AdjacentPositionsInSeasonClanRating loaded.'
     end
   end
 end

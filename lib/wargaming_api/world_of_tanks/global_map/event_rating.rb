@@ -16,7 +16,7 @@ module WargamingApi
         @limit = 100
       end
 
-      puts 'GlobalMap -> EventRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> EventRating loaded.'
     end
   end
 end

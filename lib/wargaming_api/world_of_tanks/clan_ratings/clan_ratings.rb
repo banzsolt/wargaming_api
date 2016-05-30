@@ -14,7 +14,7 @@ module WargamingApi
         @clan_id = 500002053
       end
 
-      puts 'ClanRatings -> ClanRatings loaded.'
+      puts 'WorldOfTanks => ClanRatings -> ClanRatings loaded.'
     end
   end
 end

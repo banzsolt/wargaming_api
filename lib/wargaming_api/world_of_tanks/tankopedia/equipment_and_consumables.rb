@@ -19,15 +19,15 @@ module WargamingApi
         return %w(equipment optionalDevice)
       end
 
-      def set_landing_type(value)
+      def set_type(value)
         if WargamingApi::WorldOfTanks::Tankopedia::EquipmentAndConsumables.possible_type.include? value
-          @vehicle_level = value
+          @type = value
         else
-          @vehicle_level = 'equipment'
+          @type = 'equipment'
         end
       end
 
-      puts 'Tankopedia -> EquipmentAndConsumables loaded.'
+      puts 'WorldOfTanks => Tankopedia -> EquipmentAndConsumables loaded.'
     end
   end
 end

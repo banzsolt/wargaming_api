@@ -15,7 +15,7 @@ module WargamingApi
         @extra = ''
       end
 
-      puts 'Accounts -> PlayerPersonalData loaded.'
+      puts 'WorldOfTanks => Accounts -> PlayerPersonalData loaded.'
     end
   end
 end

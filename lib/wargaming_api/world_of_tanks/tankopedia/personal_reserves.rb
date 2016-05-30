@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/encyclopedia/boosters'
       end
 
-      puts 'Tankopedia -> PersonalReserves loaded.'
+      puts 'WorldOfTanks => Tankopedia -> PersonalReserves loaded.'
     end
   end
 end

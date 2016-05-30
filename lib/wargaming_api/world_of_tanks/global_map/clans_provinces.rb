@@ -14,7 +14,7 @@ module WargamingApi
         @clan_id = 500002053
       end
 
-      puts 'GlobalMap -> ClansProvinces loaded.'
+      puts 'WorldOfTanks => GlobalMap -> ClansProvinces loaded.'
     end
   end
 end

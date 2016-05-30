@@ -16,7 +16,7 @@ module WargamingApi
         @limit = 20
       end
 
-      puts 'GlobalMap -> ClanEventMissions loaded.'
+      puts 'WorldOfTanks => GlobalMap -> ClanEventMissions loaded.'
     end
   end
 end

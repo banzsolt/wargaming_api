@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/encyclopedia/achievements'
       end
 
-      puts 'Tankopedia -> Achievements loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Achievements loaded.'
     end
   end
 end

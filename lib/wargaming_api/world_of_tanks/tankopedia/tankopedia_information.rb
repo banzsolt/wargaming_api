@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/encyclopedia/info'
       end
 
-      puts 'Tankopedia -> TankopediaInformation loaded.'
+      puts 'WorldOfTanks => Tankopedia -> TankopediaInformation loaded.'
     end
   end
 end

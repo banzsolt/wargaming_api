@@ -29,7 +29,7 @@ module WargamingApi
         end
       end
 
-      puts 'PlayerRatings -> PlayerRatings loaded.'
+      puts 'WorldOfTanks => PlayerRatings -> PlayerRatings loaded.'
     end
   end
 end

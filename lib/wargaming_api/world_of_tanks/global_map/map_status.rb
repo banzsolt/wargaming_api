@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/globalmap/info'
       end
 
-      puts 'GlobalMap -> MapStatus loaded.'
+      puts 'WorldOfTanks => GlobalMap -> MapStatus loaded.'
     end
   end
 end

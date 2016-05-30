@@ -13,7 +13,7 @@ module WargamingApi
         @account_id = 509851940
       end
 
-      puts 'PermanentTeams -> PermanentTeamMemberDetails loaded.'
+      puts 'WorldOfTanks => PermanentTeams -> PermanentTeamMemberDetails loaded.'
     end
   end
 end

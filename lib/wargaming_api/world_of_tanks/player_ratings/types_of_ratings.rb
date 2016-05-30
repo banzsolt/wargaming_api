@@ -25,7 +25,7 @@ module WargamingApi
         end
       end
 
-      puts 'PlayerRatings -> TypesOfRatings loaded.'
+      puts 'WorldOfTanks => PlayerRatings -> TypesOfRatings loaded.'
     end
   end
 end

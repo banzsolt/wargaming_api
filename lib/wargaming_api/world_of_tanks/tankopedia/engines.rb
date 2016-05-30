@@ -14,7 +14,7 @@ module WargamingApi
         @module_id = ''
       end
 
-      puts 'Tankopedia -> Engines loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Engines loaded.'
     end
   end
 end

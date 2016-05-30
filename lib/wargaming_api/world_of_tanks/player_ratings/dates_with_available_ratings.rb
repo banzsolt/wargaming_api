@@ -28,7 +28,7 @@ module WargamingApi
         end
       end
 
-      puts 'PlayerRatings -> DatesWithAvailableRatings loaded.'
+      puts 'WorldOfTanks => PlayerRatings -> DatesWithAvailableRatings loaded.'
     end
   end
 end

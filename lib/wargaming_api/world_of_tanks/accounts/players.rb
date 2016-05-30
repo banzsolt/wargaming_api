@@ -27,7 +27,7 @@ module WargamingApi
         end
       end
 
-      puts 'Accounts -> Players loaded.'
+      puts 'WorldOfTanks => Accounts -> Players loaded.'
     end
   end
 end

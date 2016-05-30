@@ -25,7 +25,7 @@ module WargamingApi
         end
       end
 
-      puts 'ClanRatings -> AdjacentPositionsInClanRating loaded.'
+      puts 'WorldOfTanks => ClanRatings -> AdjacentPositionsInClanRating loaded.'
     end
   end
 end

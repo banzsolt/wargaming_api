@@ -10,7 +10,7 @@ module WargamingApi
         @link = 'api.worldoftanks.eu/wot/stronghold/buildings'
       end
 
-      puts 'Strongholds -> Structures loaded.'
+      puts 'WorldOfTanks => Strongholds -> Structures loaded.'
     end
   end
 end

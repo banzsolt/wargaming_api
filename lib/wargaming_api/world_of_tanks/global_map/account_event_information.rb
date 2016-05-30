@@ -15,7 +15,7 @@ module WargamingApi
         @front_id = '1511_eu_c4event1_front_1'
       end
 
-      puts 'GlobalMap -> AccountEventInformation loaded.'
+      puts 'WorldOfTanks => GlobalMap -> AccountEventInformation loaded.'
     end
   end
 end

@@ -14,7 +14,7 @@ module WargamingApi
         @access_token = '89da378a07d13a295d39d4149a153a8f2faa822a'
       end
 
-      puts 'Strongholds -> ClansStronghold loaded.'
+      puts 'WorldOfTanks => Strongholds -> ClansStronghold loaded.'
     end
   end
 end

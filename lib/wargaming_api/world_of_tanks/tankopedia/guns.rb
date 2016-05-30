@@ -16,7 +16,7 @@ module WargamingApi
         @tank_id = ''
       end
 
-      puts 'Tankopedia -> Guns loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Guns loaded.'
     end
   end
 end

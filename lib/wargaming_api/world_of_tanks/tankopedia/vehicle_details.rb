@@ -13,7 +13,7 @@ module WargamingApi
         @tank_id = 1841
       end
 
-      puts 'Tankopedia -> VehicleDetails loaded.'
+      puts 'WorldOfTanks => Tankopedia -> VehicleDetails loaded.'
     end
   end
 end

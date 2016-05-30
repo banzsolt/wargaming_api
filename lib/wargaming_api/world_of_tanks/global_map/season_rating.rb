@@ -29,7 +29,7 @@ module WargamingApi
         end
       end
 
-      puts 'GlobalMap -> SeasonRating loaded.'
+      puts 'WorldOfTanks => GlobalMap -> SeasonRating loaded.'
     end
   end
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wargaming_api (0.2.1)
+    wargaming_api (0.2.2)
       httparty
 
 GEM
@@ -25,4 +25,4 @@ DEPENDENCIES
   wargaming_api!
 
 BUNDLED WITH
-   1.11.2
+   1.12.4

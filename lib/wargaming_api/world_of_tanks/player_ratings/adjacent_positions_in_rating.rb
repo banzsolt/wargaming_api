@@ -31,7 +31,7 @@ module WargamingApi
         end
       end
 
-      puts 'PlayerRatings -> AdjacentPositionsInRating loaded.'
+      puts 'WorldOfTanks => PlayerRatings -> AdjacentPositionsInRating loaded.'
     end
   end
 end

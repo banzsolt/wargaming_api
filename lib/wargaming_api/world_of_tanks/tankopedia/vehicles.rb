@@ -4,6 +4,7 @@ module WargamingApi
   class WargamingApi::WorldOfTanks::Tankopedia
     class WargamingApi::WorldOfTanks::Tankopedia::Vehicles < WargamingApi::WorldOfTanks::Tankopedia
 
+      attr_reader :type
       attr_accessor :tank_id, :nation, :tier
 
       def initialize
@@ -13,9 +14,22 @@ module WargamingApi
         @tank_id = ''
         @nation = ''
         @tier = ''
+        @type = ''
       end
 
-      puts 'Tankopedia -> Vehicles loaded.'
+      def self.possible_type
+        return %w(heavyTank AT-SPG mediumTank lightTank SPG)
+      end
+
+      def set_landing_type(value)
+        if WargamingApi::WorldOfTanks::Tankopedia::Vehicles.possible_type.include? value
+          @type = value
+        else
+          @type = ''
+        end
+      end
+
+      puts 'WorldOfTanks => Tankopedia -> Vehicles loaded.'
     end
   end
 end

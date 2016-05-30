@@ -14,7 +14,7 @@ module WargamingApi
         @module_id = ''
       end
 
-      puts 'Tankopedia -> Suspensions loaded.'
+      puts 'WorldOfTanks => Tankopedia -> Suspensions loaded.'
     end
   end
 end

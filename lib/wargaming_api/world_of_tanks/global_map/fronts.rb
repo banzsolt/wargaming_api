@@ -15,7 +15,7 @@ module WargamingApi
         @front_id = ''
       end
 
-      puts 'GlobalMap -> Fronts loaded.'
+      puts 'WorldOfTanks => GlobalMap -> Fronts loaded.'
     end
   end
 end
